@@ -51,7 +51,7 @@ def parser(key):
 
 
 def parser_new(key):
-    url = 'https://raspisanie.rusoil.net/?page=schedule&search=%7B%22value%22%3A%22%D0%91%D0%9D%D0%9F-23-01%22%2C%22id%22%3A110684%2C%22FILIAL%22%3A1%2C%22GRUPPA%22%3A%22%D0%91%D0%9D%D0%9F-23-01%22%2C%22BELLFAK%22%3A1%2C%22FOB%22%3A1%7D'
+    url = "link will be here"
     driver = webdriver.Chrome()
 
     driver.get(url=url)
@@ -96,7 +96,7 @@ def parser_new(key):
     return text if (len(text) - len(key) - 1) != 0 else f'{key} \nYou are free'
 
 
-token = "5468277697:AAFs60Sej6AagSZwKIrRRUdUkilh2PANhy4"
+token = "{your token}"
 
 bot = telebot.TeleBot(token)
 
