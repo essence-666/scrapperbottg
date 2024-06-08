@@ -1,1 +1,1 @@
-# scrapperbottg
+just pet project that need big changes for parsing from any others universites schedule, however if are lucky guy and study at USPU (U - Ufa), you just need to replace {your token} with token from BotFather, enjoy your usage!)
